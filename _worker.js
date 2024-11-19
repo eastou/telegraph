@@ -6,7 +6,7 @@ export default {
     const USERNAME = env.USERNAME;
     const PASSWORD = env.PASSWORD;
     const adminPath = env.ADMIN_PATH;
-    const enableAuth = '';
+    const enableAuth = env.ENABLE_AUTH === 'true';
     const TG_BOT_TOKEN = env.TG_BOT_TOKEN;
     const TG_CHAT_ID = env.TG_CHAT_ID;
 
